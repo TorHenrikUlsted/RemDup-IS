@@ -1,7 +1,7 @@
 # RemDup-IS
 A tiny shiny app initial screening and r script for removing duplicate references through CSV files
 
-
+#HOW TO
 This code only works for ProQuest, Web of science and Scopus and only for one csv per search engine as of yet.
 The only thing you have to do, hopefully, is change the csv files in the resources folder and remove the ones you do not need.
 You do not need all of them.
