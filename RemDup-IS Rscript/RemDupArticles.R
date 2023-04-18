@@ -68,7 +68,7 @@ for (i in seq_along(df_list)) {
 #make the DOI an actual link
 for (item in df_in_need_of_link) {
   if (item %in% names(df_list)) {
-    df_list[[item]]$Link = paste0("http://dx.doi.org/", df_list[[item]]$Link)
+    df_list[[item]]$Link = paste0("https://dx.doi.org/", df_list[[item]]$Link)
   }
 }
 
